@@ -5,6 +5,11 @@ In this project I have created an interactive Power BI dashboard that displays k
 visualizes metrics like Hourly Revenue Analysis, Profit and Revenue Trends, Seasonal Revenue and Rider demographics. The purpose of this project is to recommend the raising price for 
 the next year.
 
+### Data Preview
+The dataset consists of 3 .csv files:
+-    'bike_share_yr_0/1.csv': this file consists of data that describes the number of riders per day, the temperature of the day, season, rider type and the weather on that day
+-    'cost_table.csv': it denotes the price of a bike for both the years along with the 'Cost of Goods', this table is useful for recommending the raising price for next year.
+  
 ### Steps followed
 1.  Load the data into Microsoft Server Management Studio/ MySQL Workspace, the data are the csv files(bike_share_yr_0.csv and bike_share_csv_1.csv).
 2.  Concatenated the three tables (excel files) using 'cte','union' to merge the two bike_share excel files and
@@ -20,3 +25,20 @@ the next year.
 11.  Added a slicer and set the filter as the year column
 
    ![Dashboard](Dashboard.png)
+
+
+### Inferences:
+####    Profit Growth Analysis:
+-    A 25% price increase in 2022 led to an 80% increase in profit, indicating strong customer demand and a willingness to pay higher prices. This suggests that the bike rental service has a relatively inelastic demand, allowing for further price adjustments without significantly affecting rider numbers.
+  
+####    Revenue Distribution:
+-    The hourly revenue analysis reveals peak earning hours around 8 a.m. and 5 p.m., aligning with commuter patterns. This indicates that the majority of riders are likely using the service for work commutes, presenting opportunities for targeted marketing during these hours or additional price hikes for peak times.
+
+####    Seasonal Trends:
+-    Revenue is highest during season 3 (presumably summer), contributing $3.2M, followed by season 2 (spring) with $2.9M. This seasonal trend highlights the importance of increasing inventory or promotional campaigns during peak months to capitalize on demand.
+
+####    Rider Demographics:
+-    81.81% of riders are registered users, demonstrating a loyal customer base. This opens opportunities to incentivize casual riders (18.19%) to convert into registered users through promotions or loyalty programs.
+
+###    Conclusion:
+The dashboard reveals that a 25% price increase in 2022 led to an 80% profit boost, highlighting strong market responsiveness. Seasonal and hourly trends emphasize focusing on peak demand, while the dominance of registered riders suggests loyalty. For next year, a similar price increase (~25%) and strategies targeting casual riders and off-peak times can further drive growth and profitability.
