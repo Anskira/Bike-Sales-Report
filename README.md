@@ -1,4 +1,4 @@
-# Sales Report
+# Price Prediction Report using Sales Data Analysis
 
 ## Problem Statement
 In this project I have created an interactive Power BI dashboard that displays key performance metrics for informed decision making for Toman Bike Share. The dashboard 
