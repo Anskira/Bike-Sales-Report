@@ -12,4 +12,5 @@ the next year.
 3.  Dropped the duplicate columns after the join operation and added new columns 'Revenue' and 'Profit' using existing columns.
 4.  Deleted the rows containing non positive values in numerical columns and deleted duplicated rows to maintain data quality.
 5.  Exported this newly created schema and imported it into PowerBI
-6.  
+6.  In PowerBI dashboard, plotted a table that shows the weekly revenue generation by hour.
+7.  
